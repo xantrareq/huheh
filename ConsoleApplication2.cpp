@@ -2,11 +2,13 @@
 //
 
 #include <iostream>
-
+#include <cmath>
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
-    for (int i;i)
+    cout << "Hello World!\n";
+    for (int i = 1000; i > 0; i = i - 7)
+        cout << "zxc    " << i - 7 << endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
